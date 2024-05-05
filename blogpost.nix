@@ -24,4 +24,14 @@ echo "</html>" >> index.html
 echo "h1 {color:blue;}" >> styles/style.css
 echo "h2 {color:green;}" >> styles/style.css
 echo "p {color:black;}" >> styles/style.css
-
+touch style.css
+echo "   " >> style.css
+echo ":root{"  >> style.css
+echo "--basic: #aaaaaa; /* for paragraph --*/" >> style.css
+echo  "  --header: #aaaaaa;" >> style.css
+echo "     font-family: 'Times New Roman', Garmond, serif;" >> style.css
+echo "        background-color: #494949;" >> style.css
+echo " font-size: 30px;"
+echo " font: Garmond;" >> style.css
+echo "}" >> style.css 
+           
